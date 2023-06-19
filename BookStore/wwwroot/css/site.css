@@ -1,0 +1,120 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar-custom {
+    width: 100%;
+    height: auto;
+    background-color: #2BAE66FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookBrand {
+    padding: 1em 0.5em;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+    float: right;
+    font-size: 1.30em;
+    font-weight: bolder;
+    line-height: 48px;
+    
+}
+
+
+
+
+.navbar-custom ul li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    padding: 0.2em 0.5em;
+    padding: 10px 30px;
+    margin: 0 40px;
+ 
+}
+
+.navbar-custom ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.2em;
+}
+
+.custom-brand {
+    color: white;
+}
+
+.custom-brand:hover {
+    color: white;
+}
+
+.navgation-custom {
+ 
+}
+
+.navgation-custom li {
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.66);
+ }
+
+.navgation-custom li:hover{
+    background: #000;
+}
+
+@media (max-width: 600px) {
+    nav .navbar-custom ul li{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .navbar-custom ul li {
+        text-decoration: none;
+        list-style: none;
+        float: none;
+        margin: 0 40px;
+    }
+
+    .left-links {
+        padding: 2em 0.5em;
+        margin: 0;
+        height: 100%;
+        vertical-align: middle;
+        float: right;
+        width: 15%;
+    }
+
+    .right-links {
+        padding: 2em 0.5em;
+        margin: 0;
+        height: 100%;
+        vertical-align: middle;
+        float: right;
+    }
+
+    .bookBrand {
+        padding: 1em 0.5em;
+        margin: 0;
+        width: 12%;
+        height: 100%;
+        vertical-align: middle;
+        float: right;
+        font-size: 1.30em;
+        font-weight: bolder;
+        line-height: 48px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .bookBrand {
+        width: 21%;
+    }
+}
